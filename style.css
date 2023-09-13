@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 1080px;
+    background-color: #36251c;
+}
+
+.navbar {
+    width: 935px;
+    height: 90px;
+}
+
+.navbar .gy{
+    position: fixed;
+    width: 935px;
+    height: 90px;
+    z-index: 1;
+    top:  -485px;
+    left: 180px;
+}
+
+.box {
+    width: 1440px;
+    height: 111px;
+}
+
+.box .rectangle {
+    position: fixed;
+    width: 1440px;
+    height: 111px;
+    top: 0;
+    left: 0;
+    background-color: #0b1d38;
+}
+
+.core {
+    box-sizing: border-box;
+}
+
+.core{
+    position: fixed;
+    width: 1080px;
+    height: 1000px;
+    top: -100px;
+    left: 185px;
+}
+
+.systems{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 40%;
+}
+
+.landing-button {
+    background: none;
+    border: 2px solid white; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    font-size: 16px; 
+    text-align: center;
+    color: white; 
+    outline: none;
+    position: fixed;
+    left: 625px;
+    bottom: 50px;
+}
+
+.landing-button:hover {
+    border-color: dimgrey;
+    color: dimgrey;
+}
+
+.temporal {
+  height: 610px;
+  width: 1440px;
+  position: fixed;
+  top: 350px;
+}
+
+.week-3 {
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    top: 150px;
+
+}
+
+.laurel p{
+    color: #ffffff;
+    text-align: right;
+    position: fixed;
+    width: 450px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    left: 925px;
+    bottom: 550px;
+}
+
+.week3-button {
+    background: none;
+    border: 2px solid white; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    font-size: 12px; 
+    text-align: center;
+    color: white; 
+    outline: none;
+    position: fixed;
+    left: 1265px;
+    bottom: 525px;
+}
+
+.week3-button:hover {
+    border-color: dimgrey;
+    color: dimgrey;
+}
+
+.wk3-response {
+    position: fixed;
+    width: 100%;
+    height: 110%;
+    opacity: 60%;
+}
+
+.text-3 p{
+    position: fixed;
+    color: #ffffff;
+    opacity: 100%;
+    top: 425px;
+    width: 550px;
+    text-align: center;
+    left: 450px;
+    border: 2px solid white;
+    padding: 10px;
+    scale: 150%;
+
+}
+
+.quote-3 p{
+    position: fixed;
+    color: #ffffff;
+    opacity: 100%;
+    top: 300px;
+    width: 350px;
+    text-align: center;
+    left: 550px;
+    border: 2px solid white;
+    padding: 10px;
+    scale: 150%;
+}
+
